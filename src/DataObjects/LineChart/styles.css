@@ -1,0 +1,17 @@
+svg {
+    background-color: #f8f9fa;
+    overflow: visible;
+}
+
+button {
+    height: 20%;
+    cursor: pointer;
+    border: none;
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 15px;
+    
+}
+button:hover {
+    background-color: rgb(226, 225, 225);
+}
