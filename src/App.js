@@ -1,10 +1,8 @@
 import React from 'react';
 import './App.css';
 import Layout from './containers/Layout'
-import BarChart from './DataObjects/BarChart'
-import LineChart from './DataObjects/LineChart'
-import DonutChart from './DataObjects/DonutChart'
-import Chart from './DataObjects/Chart'
+import BarChart from './components/BarChart'
+import LineChart from './components/LineChart'
 
 class App extends React.Component {
   
@@ -14,8 +12,6 @@ class App extends React.Component {
         <Layout>
           <LineChart />
           <BarChart />
-          {/* <DonutChart /> */}
-          {/* <Chart /> */}
         </Layout>
       </div>
     );

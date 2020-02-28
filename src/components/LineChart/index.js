@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import { select, line, curveCardinal, axisBottom, axisRight, scaleLinear } from 'd3'
 import './styles.css'
+import Button from '../Button'
 
 const LineChart = () => {
     const [data, setData] = useState([25, 30, 45, 60, 20, 65, 77])
@@ -30,13 +31,13 @@ const LineChart = () => {
          .attr('stroke', 'blue')
     }, [data])
     return(
-        <React.Fragment>
+        <div>
             <svg ref={svgRef}>
                 <g className="x-axis" />
                 <g className="y-axis" />
             </svg>
-            <button onClick={() => setData((data) => data.map(d => d > 100 ? d / 20 : d * 1.1))} >Random Data</button>
-        </React.Fragment>
+            <Button onClick={() => setData((data) => data.map(d => d > 100 ? d / 20 : d * 1.1))} text="Update" />
+        </div>
     );
 };
 

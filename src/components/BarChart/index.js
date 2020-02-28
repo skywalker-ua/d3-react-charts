@@ -5,6 +5,7 @@ import React,
     useEffect
 } from 'react'
 import './styles.css'
+import Button from '../Button'
 import {
     select,
     axisBottom,
@@ -73,9 +74,7 @@ const BarChart = () => {
                 <g className="x-axis" />
                 <g className="y-axis" />
             </svg>
-            <button onClick={() => setData(data.map(d => d + 10))} >
-                Update
-            </button>
+            <Button onClick={() => setData(data.map(d => (d > 140) ? d = 0 : d + 10))} text="Update" />
         </div>
     );
 };
