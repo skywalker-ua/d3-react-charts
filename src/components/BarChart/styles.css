@@ -1,3 +1,17 @@
 .bar-chart {
     margin-left: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0 50px;
+}
+
+.bar svg {
+    width: 100%;
+    height: 100%;
+}
+
+.actions-btn {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
 }
