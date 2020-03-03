@@ -1,0 +1,24 @@
+.gauge {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 100px;
+    height: 100%;
+    align-items: center;
+}
+
+svg .gauge {
+    height: 100%;
+    background-color: aqua;
+}
+
+.action-btns {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.slider-inp {
+    position: relative;
+    top: 1.2em;
+    
+}
