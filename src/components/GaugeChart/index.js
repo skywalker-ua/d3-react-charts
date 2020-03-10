@@ -3,20 +3,17 @@ import React,
     useEffect,
     useRef,
     useState
-}
- from 'react'
+} from 'react'
 import './styles.css'
-import Button from '../Button'
 import useResizeObserver from '../hooks/useResizeObserver'
 import { select, arc, pie } from 'd3'
+
 const GaugeChart = props => {
 
-    const { data } = props;
     const [sliderData, setData] = useState({
         data: [50, 50]
     })
     
-
     const svgRef = useRef()
     const wrapperRef = useRef()
     const dimensions = useResizeObserver(wrapperRef)

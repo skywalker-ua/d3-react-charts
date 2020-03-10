@@ -1,0 +1,37 @@
+.selection-div {
+    display: flex;
+    padding: 10px;
+    flex-flow: row nowrap;
+}
+
+.select-buttons {
+    border: none;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #2286c3;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    margin-right: 10px;
+}
+.select-buttons:hover {
+    background-color:  #2393da;
+}
+
+.select-buttons:focus {
+    outline: none;
+}
+
+.select-buttons:active {
+    position: relative;
+    top: .1em;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link:focus {
+    color: white;
+}
