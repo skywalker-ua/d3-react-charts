@@ -30,3 +30,7 @@
     top: auto;
     width: 100%;
   } */
+
+  .timeline svg {
+      width: calc(100vw - 200px);
+  }
