@@ -24,16 +24,6 @@ const SelectionButton = () => {
                  Line Chart
              </button>
             </Link>
-            <Link className="link" to="line-chart" >
-             <button className="select-buttons">
-                 Line Chart
-             </button>
-            </Link>
-            <Link className="link" to="line-chart" >
-             <button className="select-buttons">
-                 Line Chart
-             </button>
-            </Link>
         </div>
     );
 }
