@@ -4,7 +4,7 @@ import useInterval from '../hooks/useInterval'
 import './styles.css'
 
 const getRandomIndex = array => {
-    return Math.floor(array.length * Math.random);
+    return Math.floor(array.length * Math.random());
 }
 
 const RaceBar = () => {
