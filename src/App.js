@@ -6,6 +6,7 @@ import LineChart from './components/LineChart'
 import GaugeChart from './components/GaugeChart'
 import Header from '../src/components/Header'
 import TimeLine from '../src/components/TimeLine'
+import GeoChart from './components/GeoChart'
 import SelectionButtons from './components/SelectionButtons'
 import { 
   Switch,
@@ -40,6 +41,9 @@ class App extends React.Component {
             </Route>
             <Route exact path="/race-bar-chart">
               <RacingBarChart />
+            </Route>
+            <Route exact path="/geochart">
+              <GeoChart />
             </Route>
             <Redirect to="/" />
           </Switch>

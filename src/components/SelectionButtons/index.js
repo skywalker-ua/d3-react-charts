@@ -29,6 +29,11 @@ const SelectionButton = () => {
                  Race Bar Chart
              </button>
             </Link>
+            <Link className="link" to="geochart" >
+             <button className="select-buttons">
+                 Geo Chart
+             </button>
+            </Link>
         </div>
     );
 }

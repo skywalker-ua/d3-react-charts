@@ -1,0 +1,11 @@
+svg .country:hover {
+    stroke: black;
+    stroke-width: 1px;
+    cursor: pointer;
+}
+svg .country:active {
+    stroke: yellow;
+}
+svg .country:selected {
+    stroke: yellow;
+}
