@@ -1,0 +1,10 @@
+.race-chart {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.race-chart button {
+    border: none;
+    width: 100px;
+    padding: 10px;
+}

@@ -13,6 +13,7 @@ import {
   Route,
   Redirect
  } from 'react-router-dom' 
+import RacingBarChart from './components/RacingBarChart';
 const data = [25, 30];
 
 class App extends React.Component {
@@ -37,6 +38,9 @@ class App extends React.Component {
             <Route exact path="/timeline-chart">
               <TimeLine data={data} />
             </Route>
+            <Route exact path="/race-bar-chart">
+              <RacingBarChart />
+            </Route>
             <Redirect to="/" />
           </Switch>
         </Layout>
@@ -47,3 +51,4 @@ class App extends React.Component {
 }
 
 export default App;
+
